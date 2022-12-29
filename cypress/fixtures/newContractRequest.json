@@ -1,0 +1,24 @@
+{
+    "type": "QUICK_TRANSACTION",
+    "senderRole": "PROVIDER",
+    "itemDetail": {
+        "title": "Test automation contract",
+        "description": "Test automation contract",
+        "images": [
+            "https://dev-waffy-files.s3.eu-west-1.amazonaws.com/images/contracts/639841792086f83247a5ae4e/8953890b7057e3e6.jpg"
+        ]
+    },
+    "itemPrice": "600",
+    "currency": "SAR",
+    "feePayee": "PROVIDER",
+    "shipment": {
+        "type": "SHIPMENT_COMPANY",
+        "fee": 15.75,
+        "currency": "SAR",
+        "deliveryInDays": 5
+    },
+    "returnPolicy": "NO_RETURN",
+    "inspectionPeriod": "2",
+    "returnFeePayee": "PROVIDER",
+    "waffyTermsAccepted": true
+}
