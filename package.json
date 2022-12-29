@@ -1,0 +1,29 @@
+{
+  "name": "waffy-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --e2e --browser=chrome",
+    "cy:run": "cypress run --e2e --browser=chrome",
+    "test:report": "node ./\/cucumber-html-report.js"
+  },
+  "author": "Automation",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@types/node": "^18.11.9",
+    "cy-verify-downloads": "^0.1.11",
+    "cypress": "^11.0.1",
+    "cypress-delete-downloads-folder": "^0.0.2",
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.15.10",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.3.1",
+    "faker": "^5.5.3"
+  }
+}
